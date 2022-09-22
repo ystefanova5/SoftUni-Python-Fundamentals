@@ -5,9 +5,9 @@ This repository contains my solutions for the tasks from the SoftUni course Prog
 Course duration: 12 weeks<br>
 Course start: 12.09.2022<br>
 Course tutors: <br>
-	Common Lectures: Desislava Topuzakova<br>
-	Python Labs: Mario Zahariev<br>
-	Python Exercises: Ivan Shopov<br>
+ • Common Lectures: Desislava Topuzakova<br>
+ • Python Labs: Mario Zahariev<br>
+ • Python Exercises: Ivan Shopov<br>
 
 ### Course curriculum:
 1. Resources<br>
