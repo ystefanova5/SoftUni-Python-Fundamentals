@@ -1,6 +1,14 @@
 # SoftUni-Programming-Fundamentals-with-Python-Sept-2022
 This repository contains my solutions for the tasks from the SoftUni course Programming Fundamentals with Python-September 2022.
 
+## Course details
+Course duration: 12 weeks
+Course start: 12.09.2022
+Course tutors: 
+	Common Lectures: Desislava Topuzakova
+	Python Labs: Mario Zahariev
+	Python Exercises: Ivan Shopov
+
 ## Course curriculum:
 1. Resources
 2. IT Talks
