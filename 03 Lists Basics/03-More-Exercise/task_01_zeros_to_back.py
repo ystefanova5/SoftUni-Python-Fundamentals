@@ -1,6 +1,5 @@
-input_string = input()
+numbers_list = input().split(", ")
 zeros_counter = 0
-numbers_list = input_string.split(", ")
 final_list = []
 for item in numbers_list:
     if item == "0":
