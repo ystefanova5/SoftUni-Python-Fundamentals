@@ -35,5 +35,3 @@ if (sold_items_value + budget) >= ticket_price:
     print("Hello, France!")
 else:
     print("Not enough money.")
-# Clothes->43.30|Shoes->25.25|Clothes->36.52|Clothes->20.90|Accessories->15.60
-# 120
