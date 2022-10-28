@@ -18,4 +18,6 @@ class Movie:
             self.watched = True
 
     def __repr__(self):
-        return f"Movie name: {self.name}; Movie director: {self.director}. Total watched movies: {Movie.__watched_movies}"
+        return f"Movie name: {self.name}; " \
+               f"Movie director: {self.director}. " \
+               f"Total watched movies: {Movie.__watched_movies}"
