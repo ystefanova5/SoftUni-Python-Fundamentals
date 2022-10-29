@@ -13,7 +13,7 @@ class Movie:
         self.director = new_director
 
     def watch(self):
-        if self.watched == False:
+        if not self.watched:
             Movie.__watched_movies += 1
             self.watched = True
 
