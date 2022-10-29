@@ -9,4 +9,4 @@ class Storage:
             self.storage.append(product)
 
     def get_products(self):
-        return self.storage
+        return Storage.storage
