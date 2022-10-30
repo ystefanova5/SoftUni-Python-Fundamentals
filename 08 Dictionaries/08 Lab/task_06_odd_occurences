@@ -1,0 +1,17 @@
+# Task description:
+# Write a program that prints all elements from a given sequence of words
+# that occur an odd number of times (case-insensitive) in it.
+# •	Words are given on a single line, space-separated.
+# •	Print the result elements in lowercase, in their order of appearance.
+
+
+words = input().split()
+my_dict = {}
+for word in words:
+    if word.lower() not in my_dict:
+        my_dict[word.lower()] = 1
+    else:
+        my_dict[word.lower()] += 1
+for (key, value) in my_dict.items():
+    if value % 2 != 0:
+        print(key, end=" ")
