@@ -15,8 +15,7 @@
 bakery_stock = {}
 command = input()
 while command != "statistics":
-    current_key = command.split(": ")[0]
-    current_value = int(command.split(": ")[1])
+    current_key, current_value = command.split(": ")
     if current_key in bakery_stock:
         bakery_stock[current_key] += current_value
     else:
