@@ -1,4 +1,5 @@
-# 02. Largest of Three Numbers - Task description:
+# 02. Largest of Three Numbers
+# Task Description:
 # Write a program that receives three whole numbers and prints the largest one.
 
 
