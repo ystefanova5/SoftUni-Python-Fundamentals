@@ -1,3 +1,7 @@
+# 02. Largest of Three Numbers - Task description:
+# Write a program that receives three whole numbers and prints the largest one.
+
+
 number_one = int(input())
 number_two = int(input())
 number_three = int(input())
