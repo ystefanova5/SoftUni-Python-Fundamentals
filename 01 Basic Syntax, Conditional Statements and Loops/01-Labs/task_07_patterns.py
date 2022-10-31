@@ -1,3 +1,9 @@
+# 07. Patterns
+# Task Description:
+# Write a program that receives a number and creates the following pattern. 
+# The number represents the largest count of stars on one row.
+
+
 max_stars = int(input())
 for first_stars in range(max_stars):
     print("*" * (first_stars + 1))
