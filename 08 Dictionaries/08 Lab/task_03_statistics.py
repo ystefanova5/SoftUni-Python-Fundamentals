@@ -1,4 +1,5 @@
-# Task description:
+# 03. Statistics
+# Task Description:
 # You will be receiving key-value pairs on separate lines separated by ": "
 # until you receive the command "statistics". Sometimes you may receive a product more than once.
 # In that case, you have to add the new quantity to the existing one.
