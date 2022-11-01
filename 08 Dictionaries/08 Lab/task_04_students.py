@@ -1,4 +1,5 @@
-# Task description:
+# 04. Students
+# Task Description:
 # You will be receiving names of students, their ID, and a course of programming they have
 # taken in the format "{name}:{ID}:{course}".
 # On the last line, you will receive a name of a course in snake case lowercase letters.
