@@ -4,7 +4,6 @@
 # Try solving that problem using comprehension.
 
 
-keys = input().split(", ")
-values = [ord(x) for x in keys]
-ascii_dict = dict(zip(keys, values))
+words = input().split(", ")
+ascii_dict = {word: ord(word) for word in words}
 print(ascii_dict)
