@@ -1,4 +1,5 @@
-# Task description:
+# 07. Word Synonyms
+# Task Description:
 # Write a program, which keeps a dictionary with synonyms. 
 # The key of the dictionary will be the word. 
 # The value will be a list of all the synonyms of that word. 
