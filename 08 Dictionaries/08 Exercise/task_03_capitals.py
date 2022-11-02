@@ -1,4 +1,4 @@
-# 03. Capitals
+# 3. Capitals
 # Task Description:
 # Using a dictionary comprehension, write a program that receives country names on the first line,
 # separated by comma and space ", ", and their corresponding capital cities on the second line
