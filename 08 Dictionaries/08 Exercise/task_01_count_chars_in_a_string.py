@@ -1,4 +1,4 @@
-# 01. Count Chars in a String
+# 1. Count Chars in a String
 # Task Description:
 # Write a program that counts all characters in a string except for space (" ").
 # Print all the occurrences in the following format:
