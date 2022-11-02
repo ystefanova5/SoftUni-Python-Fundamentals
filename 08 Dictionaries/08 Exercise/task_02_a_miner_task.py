@@ -1,4 +1,4 @@
-# 02. A Miner Task
+# 2. A Miner Task
 # Task Description:
 # You will be given a sequence of strings, each on a new line until you receive the "stop" command.
 # Every odd line on the console represents a resource (e.g., Gold, Silver, Copper, and so on) and every even - quantity.
