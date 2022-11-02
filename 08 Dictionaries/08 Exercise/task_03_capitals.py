@@ -6,3 +6,9 @@
 # Print each country with their capital on a separate line in the following format: "{country} -> {capital}".
 
 
+countries = input().split(", ")
+capitals = input().split(", ")
+capitals_dict = dict(zip(countries, capitals))
+for key, value in capitals_dict.items():
+    print(f"{key} -> {value}")
+    
