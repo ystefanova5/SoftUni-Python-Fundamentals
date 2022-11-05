@@ -1,0 +1,80 @@
+moba_players = {}
+input_line = input().split()
+while len(input_line) != 2:
+    if input_line[1] == "->":
+        name, position, skill = input_line[0], input_line[2], int(input_line[4])
+        if name not in moba_players:
+            moba_players[name] = {"total_skill": 0, position: 0}
+        if position not in moba_players[name]:
+            moba_players[name][position] = 0
+        else:
+            moba_players[name]["total_skill"] -= moba_players[name][position]
+            if skill < moba_players[name][position]:
+                skill = moba_players[name][position]
+        moba_players[name][position] = skill
+        moba_players[name]["total_skill"] += skill
+    elif input_line[1] == "vs":
+        player_one, player_two = input_line[0], input_line[2]
+        common_positions = []
+        positions_one = []
+        positions_two = []
+        for key_one, value_one in moba_players.items():
+            if key_one == player_one:
+                positions_one = list(x for x in moba_players[key_one].keys() if x != "total_skill")
+                for key_two, value_two in moba_players.items():
+                    if key_two == player_two:
+                        positions_two = list(x for x in moba_players[key_two].keys() if x != "total_skill")
+        for pos in positions_one:
+            if pos in positions_two:
+                common_positions.append(pos)
+        if len(common_positions) > 0:
+            if moba_players[player_one]["total_skill"] > moba_players[player_two]["total_skill"]:
+                moba_players.pop(player_two)
+            elif moba_players[player_one]["total_skill"] < moba_players[player_two]["total_skill"]:
+                moba_players.pop(player_one)
+    input_line = input().split()
+    
+sorted_players = sorted(moba_players, key=lambda x: (moba_players[x]["total_skill"]), reverse=True)
+sorted_moba_players = {key: moba_players[key] for key in sorted_players}
+
+for player, positions in sorted_moba_players.items():
+    print(f"{player}: {positions['total_skill']} skill")
+    sorted_positions = dict(sorted(positions.items(), key=lambda x: x[1], reverse=True))
+    for key, value in sorted_positions.items():
+        if key != "total_skill":
+            print(f"- {key} <::> {value}")
+
+
+################ Task Description ################
+# 3. MOBA Challenger
+# You are a pro MOBA player, you are struggling to become а master of the Challenger tier. 
+# So, you carefully watch the statistics in the tier.
+# You will receive several input lines in one of the following formats:
+# "{player} -> {position} -> {skill}"
+# "{player} vs {player}"
+# The "player" and "position" are strings, and the given "skill" will be an integer number. 
+# You need to keep track of every player.
+# When you receive a player with his position and skill, add him to the players' pool, if he isn`t present, 
+# else add his position and skill or update his skill, only if the current position skill is lower than the new value.
+# If you receive "{player} vs {player}" and both players exist in the tier, they duel with the following rules:
+# • If they got at least one position in common, the player with better total skill points wins 
+#   and the other is demoted from the tier -> remove him. 
+# • If they have same total skill points at the same positions, the duel is tie and they both continue in the Season.
+# • If they don`t have positions in common, the duel isn`t happening and both continue in the Season.
+# You should end your program when you receive the command "Season end". 
+# At that point you should print the players, ordered by total skill in descending order, 
+# then ordered by player name in ascending order. For each player print their position and skill, 
+# ordered descending by skill, then ordered by position name in ascending order.
+# Input / Constraints
+# • The input comes in the form of commands in one of the formats specified above.
+# • Player and position will always be one word string, containing no whitespaces.
+# • Skill will be an integer in the range [0, 1000].
+# • There will be no invalid input lines.
+# • The program ends when you receive the command "Season end".
+# Output
+# • The output format for each player is:
+# "{player}: {total_skills} skill"
+# - {position1} <::> {skill}
+# - {position2} <::> {skill}
+# …
+# - {positionN} <::> {skill}"
