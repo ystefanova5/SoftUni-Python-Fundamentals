@@ -45,7 +45,7 @@ for player, positions in sorted_moba_players.items():
             print(f"- {key} <::> {value}")
 
 
-################ Task Description ################
+################################ Task Description ################################
 # 3. MOBA Challenger
 # You are a pro MOBA player, you are struggling to become а master of the Challenger tier. 
 # So, you carefully watch the statistics in the tier.
