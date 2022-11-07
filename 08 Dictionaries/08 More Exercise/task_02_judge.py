@@ -47,7 +47,7 @@ for key, value in sorted_scores.items():
     print(f"{counter}. {key} -> {value}")
 
 
-################ Task Description ################
+################################ Task Description ################################
 # 2. Judge
 # You know the judge system, right?! Your job is to create a program similar to the Judge system.
 # You will receive several input lines in one of the following formats:
