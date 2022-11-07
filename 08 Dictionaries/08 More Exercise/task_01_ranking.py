@@ -42,7 +42,7 @@ for participant, exam_results in sorted_participants.items():
         if exam != "total_points":
             print(f"#  {exam} -> {points}")
 
-################ Task Description ################
+################################ Task Description ################################
 # 1. Ranking
 # Here comes the final and the most interesting part – the Final ranking of the candidate-interns.
 # The final ranking is determined by the points of the interview tasks and by the points from the exams in SoftUni.
