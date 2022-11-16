@@ -1,3 +1,19 @@
+courses = {}
+command = input()
+while command != "end":
+    current_course = command.split(" : ")[0]
+    current_student = command.split(" : ")[1]
+    if current_course not in courses:
+        courses[current_course] = []
+    courses[current_course].append(current_student)
+    command = input()
+for course in courses:
+    print(f"{course}: {len(courses[course])}")
+    for student in courses[course]:
+        print(f"-- {student}")
+
+
+################################################   Task Description   ################################################
 # 8. Courses
 # Task Description:
 # Write a program that keeps the information about courses. Each course has a name and registered students.
@@ -14,18 +30,3 @@
 # "{course_name}: {registered_students}"
 # • Print the information about each student in the following format:
 # "-- {student_name}"
-
-
-courses = {}
-command = input()
-while command != "end":
-    current_course = command.split(" : ")[0]
-    current_student = command.split(" : ")[1]
-    if current_course not in courses:
-        courses[current_course] = []
-    courses[current_course].append(current_student)
-    command = input()
-for course in courses:
-    print(f"{course}: {len(courses[course])}")
-    for student in courses[course]:
-        print(f"-- {student}")
