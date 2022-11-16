@@ -29,7 +29,6 @@ for value, key in exam_results.items():
     
 ################################################   Task Description   ################################################
 # 12. SoftUni Exam Results
-# Task Description:
 # Judge statistics on the last Programing Fundamentals exam were not working correctly,
 # so you have the task of taking all the submissions and analyzing them properly.
 # You should collect all the submissions and print the final results and statistics about each language
