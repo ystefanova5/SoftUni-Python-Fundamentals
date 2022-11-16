@@ -36,7 +36,6 @@ for force_sides, force_users in sides.items():
 
 ################################################   Task Description   ################################################
 # 11. Force Book
-# Task Description:
 # The force users struggle to remember which side is the different force users from because they switch them too often.
 # So you are tasked to create a web application to manage their profiles.
 # You should store information for every unique force user registered in the application.
