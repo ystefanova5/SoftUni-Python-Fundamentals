@@ -17,7 +17,6 @@ for product in prices:
 
 ################################################   Task Description   ################################################
 # 6. Orders
-# Task Description:
 # Write a program that keeps the information about products and their prices.
 # Each product has a name, a price, and a quantity:
 # • If the product doesn't exist yet, add it with its starting quantity.
