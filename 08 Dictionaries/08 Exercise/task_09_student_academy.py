@@ -19,7 +19,6 @@ for student, grades in students_dict.items():
 
 ################################################   Task Description   ################################################
 # 9. Student Academy
-# Task Description:
 # Write a program that keeps the information about students and their grades.
 # On the first line, you will receive an integer number representing the next pair of rows.
 # On the next lines, you will be receiving each student's name and their grade.
