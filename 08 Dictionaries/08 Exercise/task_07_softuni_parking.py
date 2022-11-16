@@ -31,7 +31,6 @@ for user in parking_users:
 
 ################################################   Task Description   ################################################
 # 7. SoftUni Parking
-# Task Description:
 # Write a program, which validates a parking place - users can register to enter the park and unregister to leave.
 # The program receives 2 types of commands:
 # • "register {username} {license_plate_number}":
