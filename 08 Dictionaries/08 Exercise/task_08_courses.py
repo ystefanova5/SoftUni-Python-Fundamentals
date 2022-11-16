@@ -15,7 +15,6 @@ for course in courses:
 
 ################################################   Task Description   ################################################
 # 8. Courses
-# Task Description:
 # Write a program that keeps the information about courses. Each course has a name and registered students.
 # You will be receiving a course name and a student name until you receive the command "end".
 # You should register each user into the corresponding course. If the given course does not exist, add it.
