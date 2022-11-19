@@ -14,9 +14,7 @@ for message in range(number_of_messages):
     validation = re.findall(validation_pattern, decrypted_message)
     if validation:
         name_pattern = r"@[A-Za-z]+"
-        population_pattern = r"\:\d+"
         attack_pattern = r"\![AD]\!"
-        soldier_pattern = r"\-\>\d+"
         planet_name = re.findall(name_pattern, decrypted_message)[0][1:]
         attack_type = re.findall(attack_pattern, decrypted_message)[0][1]
         if attack_type == "A":
