@@ -1,11 +1,3 @@
-# 04. Even numbers
-# Task Description:
-# Write a program that receives a number n on the first line. 
-# On the following n lines, it receives different integer numbers. 
-# If the program receives an odd number, print "{num} is odd!" and end the program. 
-# Otherwise, if all numbers given are even, print "All numbers are even.".
-
-
 number_count = int(input())
 for i in range (number_count):
     number = int(input())
@@ -18,3 +10,12 @@ for i in range (number_count):
         continue
 if all_numbers_are_even:
     print("All numbers are even.")
+
+
+################################################   Task Description   ################################################
+# 4. Even numbers
+# Task Description:
+# Write a program that receives a number n on the first line. 
+# On the following n lines, it receives different integer numbers. 
+# If the program receives an odd number, print "{num} is odd!" and end the program. 
+# Otherwise, if all numbers given are even, print "All numbers are even.".
