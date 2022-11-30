@@ -1,10 +1,3 @@
-# 05. Number Between 1 and 100
-# Task Description:
-# Write a program that reads different floating-point numbers from the console. 
-# When it receives a number between 1 and 100 inclusive, 
-# the program should stop reading and should print "The number {number} is between 1 and 100".
-
-
 current_number = float(input())
 number_is_in_range = False
 while not number_is_in_range:
@@ -14,3 +7,11 @@ while not number_is_in_range:
         break
     else:
         current_number = float(input())
+
+
+################################################   Task Description   ################################################
+# 5. Number Between 1 and 100
+# Task Description:
+# Write a program that reads different floating-point numbers from the console. 
+# When it receives a number between 1 and 100 inclusive, 
+# the program should stop reading and should print "The number {number} is between 1 and 100".
