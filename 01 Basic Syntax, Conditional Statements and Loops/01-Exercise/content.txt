@@ -1,0 +1,12 @@
+1. Jenny's secret message
+2. Drink something
+3. Chat codes
+4. Maximum multiple
+5. Orders
+6. String pureness
+7. Double char
+8. How much coffee do you need
+9. Sorting hat
+10. Mutate strings
+11. Easter bread
+12. Christmas spirit
