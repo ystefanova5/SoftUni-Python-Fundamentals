@@ -1,5 +1,6 @@
 spell = input()
 command = input().split()
+
 while command[0] != "Abracadabra":
     current_command = command[0]
     
