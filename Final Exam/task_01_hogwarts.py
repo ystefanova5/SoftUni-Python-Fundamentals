@@ -34,6 +34,7 @@ while command[0] != "Abracadabra":
             
     else:
         print("The spell did not work!")
+        
     command = input().split()
 
 
