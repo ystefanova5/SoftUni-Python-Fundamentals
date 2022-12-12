@@ -10,3 +10,10 @@ while not year_is_happy:
         current_year += 1
 if year_is_happy:
     print(happy_year)
+
+
+################################################   Task Description   ################################################
+# 6. Next Happy Year
+# You are saying goodbye to your best friend: "See you next happy year". 
+# Happy Year is the year with only distinct digits, for example, 2018. 
+# Write a program that receives an integer number and finds the next happy year.
