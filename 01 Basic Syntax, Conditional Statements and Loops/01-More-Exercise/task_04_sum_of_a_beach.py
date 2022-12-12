@@ -14,3 +14,9 @@ if "sun" in input_string_lower:
     count_sun = input_string_lower.count('sun')
 counter = count_sand + count_water + count_fish + count_sun
 print(counter)
+
+
+################################################   Task Description   ################################################
+# 4. Sum of a Beach
+# Beaches are filled with sand, water, fish, and sun. 
+# Given a string, calculate how many times the words "Sand", "Water", "Fish", and "Sun" appear (case insensitive).
