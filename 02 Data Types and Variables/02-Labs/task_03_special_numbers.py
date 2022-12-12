@@ -1,15 +1,3 @@
-# range_number = int(input())
-# for number in range(1, range_number + 1):
-#     status = False
-#     sum_of_digits = 0
-#     digits = number
-#     while digits > 0:
-#         sum_of_digits += digits % 10
-#         digits = int(digits / 10)
-#     if (sum_of_digits == 5) or (sum_of_digits == 7) or (sum_of_digits == 11):
-#         status = True
-#     print(f"{number} -> {status}")
-
 range_number = int(input())
 for number in range(1, range_number + 1):
     number_string = str(number)
@@ -20,3 +8,10 @@ for number in range(1, range_number + 1):
     if sum_numbers in [5, 7, 11]:
         status = True
     print(f"{number} -> {status}")
+
+
+################################################   Task Description   ################################################
+# 5. Special Numbers
+# Write a program that reads an integer n. 
+# Then, for all numbers in the range [1, n], prints the number and if it is special or not (True / False). 
+# A number is special when the sum of its digits is 5, 7, or 11.
