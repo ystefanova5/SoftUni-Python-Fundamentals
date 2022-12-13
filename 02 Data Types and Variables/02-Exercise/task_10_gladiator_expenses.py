@@ -20,9 +20,7 @@ print(f"Gladiator expenses: {expenses:.2f} aureus")
 
 
 ################################################   Task Description   ################################################
-# 
 # 10. * Gladiator Expenses
-# 
 # As a gladiator, Peter needs to repair his broken equipment when he loses a fight. 
 # His equipment consists of a helmet, a sword, a shield, and an armor. 
 # You will receive Peter's lost fights count. 
