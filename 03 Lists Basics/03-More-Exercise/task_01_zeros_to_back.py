@@ -9,3 +9,9 @@ for item in numbers_list:
 for zeros in range(zeros_counter):
     final_list.append(int(0))
 print(final_list)
+
+
+################################################   Task Description   ################################################
+# 1. Zeros to Back
+# Write a program that receives a single string (integers separated by a comma and space ", "), finds all the zeros, 
+# and moves them to the back without messing up the other elements. Print the resulting integer list.
