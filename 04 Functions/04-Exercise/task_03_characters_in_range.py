@@ -14,3 +14,9 @@ def get_characters_string(start, end):
 first_character = input()
 second_character = input()
 print(*get_characters_string(first_character, second_character))
+
+
+################################################   Task Description   ################################################
+# 3. Characters in Range
+# Write a function that receives two characters and returns a single string with all the characters in between them 
+# (according to the ASCII code), separated by a single space. Print the result on the console.
