@@ -1,4 +1,4 @@
-# SoftUni Programming Fundamentals with Python Sept 2022
+## SoftUni Programming Fundamentals with Python Sept 2022
 This repository contains my solutions for the tasks from the SoftUni course Programming Fundamentals with Python-September 2022.<br>
 https://softuni.bg/trainings/3840/programming-fundamentals-with-python-september-2022
 
